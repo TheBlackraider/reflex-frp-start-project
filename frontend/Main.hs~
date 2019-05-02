@@ -1,0 +1,9 @@
+{-# LANGUAGE OverloadedStrings #-}
+
+import Reflex.Dom
+
+module Main where
+
+
+main = mainWidget $ el "div" $ text "Welcome to Reflex"
+
